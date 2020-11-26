@@ -1,0 +1,106 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+ul{
+    background-color: #152349 !important;
+}
+ul li {
+    list-style: none;
+    height: 30px;
+    margin: 15px;
+    padding: 5px;
+    float: left !important;
+    color: white;
+    font-size: 14px;
+    background-color: #152349 !important;
+}
+b{
+    font-size: 17px !important;
+    background-color: #152349 !important;
+}
+
+.tren{
+    margin: 10px 10px;
+}
+a {
+    color: white;
+
+}
+.banner{
+    background-color: #152349 !important;
+}
+.About{
+    color: #015f8f;
+    height: 900px;
+    background-image: url("../Img/9e7c592aee5c4ae117f7825a7aad7bb8.jpg");
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+}
+.signup-form
+{
+    width: 400px;
+    height: 530px;
+}
+.nguoidung,.sodienthoai,.Email,.diachi
+{
+    border-bottom: 2px solid #adadad;
+
+}
+.nguoidung h3,.sex h3,.diachi,.tinhthanh h3,.sodienthoai h3,.Email h3,.Password h3,.Confirm-password h3
+{
+    color:white;
+    margin: 5px 0px;
+}
+.nguoidung input,.sodienthoai input,.Email input, .diachi input
+{
+    font-size: 12px;
+    color: white;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    height: 30px;
+}
+.chinhmau
+{
+    color: rgb(22, 22, 22);
+}
+.nut2
+{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-image: -webkit-linear-gradient(120deg,#3498db,#8e44ad);
+    border: none;
+    outline: none;
+    color: white;
+    background-size: 200%;
+    transition: 0.4s;
+}
+.nut2:hover
+{
+    background-position: center;
+}
+.dk{
+    background-image: url('../Img/Lamborghini.jpg');
+    background-size: cover;
+    height: 530px;
+}
+h3{
+    font-size: 20px !important;
+}
+span{
+    font-size: 17px;
+}
+.footer{
+    margin-top: 140px;
+}

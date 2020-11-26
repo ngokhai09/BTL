@@ -1,0 +1,37 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+ul{
+    background-color: #152349 !important;
+}
+ul li {
+    list-style: none;
+    height: 30px;
+    margin: 15px;
+    padding: 5px;
+    float: left !important;
+    color: white;
+    font-size: 14px;
+    background-color: #152349 !important;
+}
+b{
+    font-size: 17px;
+    background-color: #152349 !important;
+}
+.banner {
+    background-color: #152349 !important;
+}
+.car{
+    height: 300px;
+    margin-top: 60px;
+}
+p{
+    color: #f94f4d;
+}

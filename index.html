@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="Js/js.js">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row md-2 banner fixed-top">
+            <div class="col-md-4 col-s-4 text-center banner">
+                <a href="index.html"><img src="Img/Stryker.png" alt="" height="100"></a>
+            </div>
+            <div class="col-md-8 text-center banner">
+                <nav class="navbar navbar-expand-lg navbar-dark banner">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse banner" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Vin/index.html"><b>VINFAST</b> <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="BMW/index.html"><b>BMW</b> <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Lambo/index.html"><b>LAMBORGHINI</b> <span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-s-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="Img/chao-ban-suat-mua-lamborghini-sian-voi-gia-gap-doi-du-xe-chua-duoc-san-xuat-3.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="Img/bmw-x-series-x1-inspire-mosaic-gallery-01-desktop.jpg.asset.1558451892623.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="Img/VinFastPresident1-1596525495-7226-1596526753_1200x0.jpg" alt="Second slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-s-12 text-center"><h1 class="About">VỀ CHÚNG TÔI</h1></div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-12 col-s12 text-center">
+                <br>
+                <h1><p>ĐĂNG KÝ LÁI THỬ XE</p></h1>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-s-12 text-center">
+                <div class="khungdangky">
+                    <form class="signup-form" name="valid">
+                        <div class="nguoidung">
+                            <h3>Họ và tên *</h3><span style="color: #45ff61;" id="spname"></span>
+                            <input type="txt" name="name" id="name">
+
+                        </div>
+                        <div class="sex">
+                            <h3>Giới tính *</h3>
+                            <span style="color: #45ff61;" id="spgender"></span>
+                            <label for="rdom" style="margin-left:10px;" >Nam</label>
+                            <input type="radio" name="gender" id="gender" value="1">
+                            <label for="rdofn" style="margin-left:10px;">Nữ</label>
+                            <input type="radio" name="gender" id="gender" value="2">
+
+                        </div>
+                        <div class="tinhthanh" style="margin: 5px 0px;">
+                            <h3>Tỉnh thành *</h3>
+                            <select name="country" id="quocgia" style="margin: 10px 10px;">
+                                <option value="">Thành phố</option>
+                                <option value="1">Hà Nội</option>
+                                <option value="2">Thành Phố Hồ Chí Minh</option>
+                                <option value="3">Yên Bái</option>
+                                <option value="4">Thái Bình</option>
+                                <option value="5">Hòa Bình</option>
+                                <option value="6">Nam Định</option>
+                            </select>
+                        </div>
+                        <div class="tinhthanh" style="margin: 5px 0px;">
+                            <h3>Chọn xe *</h3>
+                            <span style="color: #45ff61;" id="spcar"></span>
+                            <select name="car" id="quocgia" style="margin: 10px 10px;">
+                                <option value="">Chọn Xe</option>
+                                <option value="1">LUXA2.0</option>
+                                <option value="2">LUXSA2.0</option>
+                                <option value="3">FADIL</option>
+                                <option value="4">LAMBORGHINI ADVENTADOR</option>
+                                <option value="5">LAMBORGHINI URUS</option>
+                                <option value="6">BMW 740Li</option>
+                                <option value="7">BMW 730Li Pure Excellence</option>
+                                <option value="8">BMW 730Li M Sport</option>
+                            </select>
+                        </div>
+                        <div class="diachi">
+                            <h3>Địa chỉ *</h3>
+                            <span style="color: #45ff61;" id="spadd"></span>
+                            <input type="text" name="address">
+                        </div>
+                        <div class="sodienthoai">
+                            <h3>Điện thoại *</h3>
+                            <span style="color: #45ff61;" id="spphone"></span>
+                            <input type="text" name="phone">
+                        </div>
+                        <div class="Email">
+                            <h3>Email *</h3>
+                            <span style="color: #45ff61;" id="spemail"></span>
+                            <input type="email" name="email" id="txtmail">
+                        </div>
+                        <div class="Submit">
+                            <br>
+                            <input type="button" class="nut2" value="Đăng Ký" onclick="validateForm(document.forms.valid)">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="col-md-8 col-s-12 dk">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container-fluid padding">
+                <div class="row text-center padding">
+                    <div class="col-12">
+                        <h2>Contact us</h2>
+                    </div>
+                </div>
+            </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <hr class="right">
+                        <h5>Legend Auto</h5>
+                        <hr class="right">
+                        <p>111-222-333</p>
+                        <p>gtvt@gmail.com</p>
+                        <p>Số 3 Cầu Giấy - Quận Đống Đa - Tp Hà Nội</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="right">
+                        <h5>Working hours</h5>
+                        <hr class="right">
+                        <p>Monday-Friday:8am-10pm</p>
+                        <p>Weekend: 8am-12am</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="right">
+                        <h5>Sevices</h5>
+                        <hr class="right">
+                        <p>Oursourcing</p>
+                        <p>Website development</p>
+                        <p>Mobile applocations</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>@ Legend</h5>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <script type="text/javascript" src="Js/js.js"></script>
+</body>
+</html>
